@@ -1,0 +1,30 @@
+### VS Code REST Client examples
+
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/convert
+Content-Type: application/json
+
+{
+  "value": 25,
+  "unit": "C"
+}
+
+###
+POST http://localhost:3000/convert
+Content-Type: application/json
+
+{
+  "value": 77,
+  "unit": "F"
+}
+
+###
+POST http://localhost:3000/convert
+Content-Type: application/json
+
+{
+  "value": 300,
+  "unit": "K"
+}
